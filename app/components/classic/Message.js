@@ -8,7 +8,7 @@ import MessageBase from '../common/Message'
 
 export default class MessageClassic extends MessageBase {
 
-  getStyles(){
+  getStyles() {
     return styles;
   }
 
@@ -30,7 +30,12 @@ const styles = StyleSheet.create({
     marginRight: 0
   },
   messageText: {
+    minWidth: 32,
     fontSize: 16,
-    color: 'black'
+    textAlign: 'center',
+    color: RkConfig.colors.black
+  },
+  myMessageText: {
+    color: RkConfig.colors.white
   }
 });
