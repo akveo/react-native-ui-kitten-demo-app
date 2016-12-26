@@ -32,7 +32,6 @@ const styles = StyleSheet.create({
   messageText: {
     minWidth: 32,
     fontSize: 16,
-    textAlign: 'center',
     color: RkConfig.colors.black
   },
   myMessageText: {

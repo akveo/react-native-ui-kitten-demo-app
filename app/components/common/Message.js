@@ -17,6 +17,9 @@ export default class MessageBase extends Component {
       containerStyle.push(styles.myMessageContainer);
       messageStyle.push(styles.myMessageText)
     }
+    if(message.text.length < 3){
+      messageStyle.push({textAlign: 'center'});
+    }
     return (
       <View style={containerStyle}>
         <View>
