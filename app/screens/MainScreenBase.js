@@ -57,7 +57,7 @@ export default class MainScreenBase extends Component {
         </Icon.TabBarItemIOS>
         <Icon.TabBarItemIOS
           title="Chats"
-          iconName="ios-chatboxes"
+          iconName="ios-chatbubbles-outline"
           badge={1}
           selected={this.state.selected === 'chat'}
           onPress={() => {

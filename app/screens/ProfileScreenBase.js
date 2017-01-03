@@ -16,7 +16,6 @@ export default class ProfileScreenBase extends Component {
 
   constructor(props) {
     super(props);
-    this._friends = api.getUserFriends(api.userId).concat(api.getUserFriends(api.userId));
   }
 
 
@@ -48,7 +47,7 @@ export default class ProfileScreenBase extends Component {
         </RkTabView.Tab>
         <RkTabView.Tab title={(selected) => <ProfileTab selected={selected} name='Followers' value='124'/>}>
           <View style={styles.tabContent}>
-            <FriendList friends={this._friends}/>
+            <FriendList friends={api.getUserFriends(api.userId)}/>
           </View>
         </RkTabView.Tab>
         <RkTabView.Tab title={(selected) => <ProfileTab selected={selected} name='Photo' value='48'/>}>

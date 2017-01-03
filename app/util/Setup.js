@@ -9,9 +9,9 @@ RkConfig.setColor('blurText', 'rgba(255,255,255,0.7)');
 RkConfig.setColor('blurTextStrong', 'rgba(255,255,255,0.9)');
 RkConfig.setColor('blurBg', 'rgba(0,0,0,0.1)');
 RkConfig.setColor('blurBgWhite', 'rgba(255,255,255,0.1)');
-RkConfig.setColor('blurBg', 'rgba(0,0,0,0.3)');
-RkConfig.setColor('blurBgLight', 'rgba(0,0,0,0.1)');
-RkConfig.setColor('blurBgStrong', 'rgba(0,0,0,0.5)');
+RkConfig.setColor('blurBg', 'rgba(11,18,38,0.3)');
+RkConfig.setColor('blurBgLight', 'rgba(11,18,38,0.1)');
+RkConfig.setColor('blurBgStrong', 'rgba(11,18,38,0.5)');
 RkConfig.setColor('blurPrimary', '#00e5bf');
 RkConfig.setColor('blurDark', '#15213b');
 RkConfig.setColor('blurExtraDark', '#0b162a');
@@ -34,17 +34,12 @@ RkConfig.setType('text', 'montserrat', {
 RkConfig.setType('text', 'roboto', {
   fontFamily: 'roboto'
 });
-RkConfig.setType('text', 'likes', {
-  fontSize: 16,
-  marginTop: -3,
-  marginRight: 10
-});
 RkConfig.setType('text', 'transparentBg', {
   backgroundColor: 'transparent'
 });
 
 RkConfig.setType('separator', 'blur', {
-  backgroundColor: RkConfig.colors.blurBg,
+  backgroundColor: RkConfig.colors.blurBgStrong,
   height: 0.5
 });
 RkConfig.setType('button', 'iconButton', {
@@ -112,6 +107,22 @@ RkConfig.setType('card', 'classic', {
     paddingVertical: 10,
     paddingHorizontal: 15,
   },
+  friendItem: {
+    marginHorizontal: 0,
+    marginBottom: 0,
+    borderRadius: 0,
+    borderTopRightRadius: 0,
+    borderTopLeftRadius: 0,
+    shadowOpacity: 0,
+  },
+  online: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    marginLeft: 10,
+    alignSelf: 'center',
+    backgroundColor: RkConfig.colors.primary
+  },
   icon: {
     fontSize: 27,
     color: RkConfig.colors.primary
@@ -122,7 +133,7 @@ RkConfig.setType('card', 'blur', {
   container: {
     borderRadius: 0,
     marginHorizontal: 0,
-    backgroundColor: RkConfig.colors.blurBgStrong,
+    backgroundColor: RkConfig.colors.blurBg,
     shadowOpacity: 0,
     shadowRadius: 0,
     shadowOffset: {
@@ -131,7 +142,7 @@ RkConfig.setType('card', 'blur', {
     }
   },
   content: {
-    backgroundColor: RkConfig.colors.blurBgStrong
+    backgroundColor: RkConfig.colors.blurBg
   },
   title: {
     marginBottom: 3,
@@ -143,15 +154,34 @@ RkConfig.setType('card', 'blur', {
   header: {
     borderTopLeftRadius: 0,
     borderTopRightRadius: 0,
-    backgroundColor: RkConfig.colors.blurBgStrong,
+    backgroundColor: RkConfig.colors.blurBg,
   },
   footer: {
     borderBottomLeftRadius: 0,
     borderBottomRightRadius: 0,
-    backgroundColor: RkConfig.colors.blurBgStrong,
+    backgroundColor: RkConfig.colors.blurBg,
   },
   icon: {
     color: 'white'
+  },
+  sideColor: {
+    width: 5,
+    marginRight: 10,
+    alignSelf: 'stretch',
+    borderRadius: 2,
+  },
+  friendItem: {
+    paddingLeft: 0,
+  },
+  online: {
+    backgroundColor: RkConfig.colors.blurPrimary,
+    shadowColor: RkConfig.colors.blurPrimary,
+    shadowOpacity: 0.5,
+    shadowRadius: 5,
+    shadowOffset: {
+      height: 0,
+      width: 0
+    }
   }
 });
 
@@ -183,6 +213,9 @@ RkConfig.setType('card', 'materialCard', {
     borderTopWidth: 0.5,
     borderBottomLeftRadius: 5,
     borderBottomRightRadius: 5,
+  },
+  online: {
+    backgroundColor: RkConfig.colors.materialBg
   }
 });
 

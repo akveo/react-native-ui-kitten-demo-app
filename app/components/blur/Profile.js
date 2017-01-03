@@ -16,7 +16,9 @@ export default class Profile extends Component {
       <View>
         <View style={styles.head}>
           <RkButton style={styles.button} innerStyle={styles.buttonIconInner}><Icon name='ios-person'/></RkButton>
-          <Image source={user.avatar} style={styles.avatar}/>
+          <View style={styles.shadowImage}>
+            <Image source={user.avatar} style={styles.avatar}/>
+          </View>
           <RkButton style={styles.button} innerStyle={styles.buttonIconInner}><Icon name='ios-mail'/></RkButton>
         </View>
         <RkText style={[styles.text, styles.onlineText]}>
@@ -41,13 +43,16 @@ const styles = StyleSheet.create({
     width: 120,
     height: 120,
     borderRadius: 60,
-    shadowColor: RkConfig.colors.blurBgStrong,
-    shadowOpacity: 0.5,
-    shadowRadius: 3,
-    shadowOffset: {
-      height: 2,
-      width: 0
-    }
+    shadowColor: 'black',
+    shadowRadius: 10,
+  },
+  shadowImage:{
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: 130,
+    height: 130,
+    borderRadius: 65,
+    backgroundColor: RkConfig.colors.blurBgLight
   },
   head: {
     flexDirection: 'row',

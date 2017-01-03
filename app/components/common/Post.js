@@ -35,13 +35,13 @@ export default class Post extends Component {
             <RkButton rkType='clear iconButton' onPress={()=> this.props.setLike(post)}>
               <Icon rkCardIcon name={post.liked ? 'ios-heart' : 'ios-heart-outline'}/>
             </RkButton>
-            <RkText type='likes'>{post.likes.toString()}</RkText>
+            <RkText style={styles.likes}>{post.likes.toString()}</RkText>
             <RkButton rkType='clear iconButton'>
-              <Icon rkCardIcon name={'ios-chatboxes'}/>
+              <Icon rkCardIcon name={'ios-chatbubbles-outline'}/>
             </RkButton>
           </View>
           <RkButton rkType='clear iconButton'>
-            <Icon rkCardIcon name={'md-cloud-download'}/>
+            <Icon rkCardIcon name={'ios-redo-outline'}/>
           </RkButton>
         </View>
       </RkCard>
@@ -53,7 +53,7 @@ export default class Post extends Component {
     if (text)
       return (
         <View style={styles.text}>
-          <RkText>{text}</RkText>
+          <RkText style={{fontFamily: null}}>{text}</RkText>
         </View>
       );
     else return (<View/>)
@@ -63,6 +63,11 @@ export default class Post extends Component {
 }
 
 const styles = StyleSheet.create({
+  likes:{
+    fontSize: 16,
+    marginTop: -3,
+    marginRight: 10
+  },
   text: {
     paddingHorizontal: 15,
     paddingTop: 10

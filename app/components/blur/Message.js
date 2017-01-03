@@ -16,22 +16,24 @@ export default class MessageBlur extends MessageBase {
 
 const styles = StyleSheet.create({
   messageContainer: {
-    backgroundColor: RkConfig.colors.blurBg,
+    backgroundColor: RkConfig.colors.blurBgStrong,
     alignSelf: 'flex-start',
     marginRight: 50,
-    padding: 10,
+    paddingVertical: 10,
+    paddingHorizontal: 15,
     borderRadius: 20,
     marginVertical: 5
   },
   myMessageContainer: {
-    backgroundColor: RkConfig.colors.blurBgStrong,
+    backgroundColor: RkConfig.colors.blurBg,
     alignSelf: 'flex-end',
     marginLeft: 50,
     marginRight: 0
   },
   messageText: {
-    minWidth: 32,
+    minWidth: 16,
     fontSize: 16,
+    fontFamily: 'Helvetica',
     color: RkConfig.colors.blurTextStrong
   }
 });

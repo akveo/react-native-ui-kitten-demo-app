@@ -331,9 +331,10 @@ let users = [
     "id": "1",
     "age": 23,
     "name": {
-      "first": "Fletcher",
-      "last": "Saunders"
+      "first": "John",
+      "last": "Doe"
     },
+    "online": true,
     "email": "fletcher.saunders@mail.tv",
     "phone": "+1 (898) 460-3581",
     "address": "140 Riverdale Avenue, Allendale, Maine, 1825",
@@ -348,6 +349,7 @@ let users = [
       "first": "Tran",
       "last": "Keith"
     },
+    "online": true,
     "email": "tran.keith@mail.net",
     "phone": "+1 (911) 404-2873",
     "avatar": require("../../img/avatars/boy2.jpeg"),
@@ -360,6 +362,7 @@ let users = [
       "first": "Ramos",
       "last": "Rowe"
     },
+    "online": true,
     "email": "ramos.rowe@mail.co.uk",
     "avatar": require("../../img/avatars/boy3.jpeg"),
     "favoriteSong": tnt
@@ -371,6 +374,7 @@ let users = [
       "first": "Sellers",
       "last": "Delgado"
     },
+    "online": true,
     "email": "sellers.delgado@mail.me",
     "avatar": require("../../img/avatars/boy4.jpeg"),
     "favoriteSong": highWay
@@ -382,6 +386,7 @@ let users = [
       "first": "Eliza",
       "last": "Dotson"
     },
+    "online": false,
     "email": "eliza.dotson@mail.org",
     "avatar": require("../../img/avatars/girl.jpeg"),
     "favoriteSong": backInBlack
@@ -412,7 +417,7 @@ let users = [
   },
   {
     "id": "8",
-    "online": false,
+    "online": true,
     "avatar": require("../../img/avatars/bernadette.jpg"),
     "age": 27,
     "name": {
@@ -424,7 +429,7 @@ let users = [
   },
   {
     "id": "9",
-    "online": true,
+    "online": false,
     "avatar": require("../../img/avatars/evelyn.jpg"),
     "age": 30,
     "name": {
@@ -436,7 +441,7 @@ let users = [
   },
   {
     "id": "10",
-    "online": true,
+    "online": false,
     "avatar": require("../../img/avatars/rosalinda.jpeg"),
     "age": 23,
     "name": {

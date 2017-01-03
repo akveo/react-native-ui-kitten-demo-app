@@ -12,10 +12,10 @@ export default class ChatFooter extends Component {
     return (
       <View style={styles.footer}>
         <RkTextInput
-          style={{flex: 1, color: RkConfig.colors.white}}
+          style={styles.input}
           placeholder='Message...'
           placeholderTextColor={RkConfig.colors.blurText}
-          rkType='rounded'
+          rkType='bordered rounded'
           onChangeText={message => this.props.onChange(message)}
           value={this.props.message}
           clearButtonMode='while-editing'
@@ -33,14 +33,18 @@ const styles = StyleSheet.create({
   footer: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: RkConfig.colors.blurBgLight,
+    backgroundColor: RkConfig.colors.blurBgStrong,
     paddingVertical: 3,
     paddingHorizontal: 5,
-    borderTopColor: RkConfig.colors.blurBgStong,
-    borderTopWidth: 1
+  },
+  input: {
+    flex: 1,
+    color: RkConfig.colors.white
   },
   inputContainer:{
     marginHorizontal: 10,
-    backgroundColor: RkConfig.colors.blurBgStrong,
+    backgroundColor: RkConfig.colors.transparent,
+    borderColor: RkConfig.colors.blurText,
+    borderWidth: 0.5
   }
 });
