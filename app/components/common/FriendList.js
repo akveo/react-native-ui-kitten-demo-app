@@ -4,7 +4,7 @@ import {
 } from 'react-native';
 
 import FollowerItem from "./FollowerItem";
-import {RkSeparator}  from 'react-native-ui-kit';
+import {RkSeparator}  from 'react-native-ui-kitten';
 
 export default class FriendList extends Component {
 

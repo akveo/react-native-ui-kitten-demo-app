@@ -11,7 +11,7 @@ import {
 import Drawer from 'react-native-drawer'
 import Icon from '../../node_modules/react-native-vector-icons/Ionicons'; //TODO normal import string?
 import ThemeService from '../util/ThemeService';
-import {RkConfig, RkBarBg, RkTabView, RkButton, RkSeparator, RkStyle} from 'react-native-ui-kit';
+import {RkConfig, RkBarBg, RkTabView, RkButton, RkSeparator, RkStyle} from 'react-native-ui-kitten';
 import api from '../util/ApiMock';
 import Toolbar from '../components/common/Toolbar';
 import DrawerMenu from '../components/DrawerMenu';

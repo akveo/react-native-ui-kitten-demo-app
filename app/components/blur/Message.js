@@ -3,7 +3,7 @@ import {
   StyleSheet,
 } from 'react-native';
 
-import {RkConfig} from 'react-native-ui-kit';
+import {RkConfig} from 'react-native-ui-kitten';
 import MessageBase from '../common/Message'
 
 export default class MessageBlur extends MessageBase {

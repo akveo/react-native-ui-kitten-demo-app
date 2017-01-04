@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 
 import Icon from 'react-native-vector-icons/Ionicons';
-import {RkConfig, RkButton, RkCard, RkText} from 'react-native-ui-kit';
+import {RkConfig, RkButton, RkCard, RkText} from 'react-native-ui-kitten';
 import PostImage from '../common/PostImage';
 
 export default class Post extends Component {
@@ -19,7 +19,9 @@ export default class Post extends Component {
       <RkCard style={styles.container}>
         <View rkCardContent style={styles.header}>
           <PostImage post={post}/>
-          <View style={styles.subheadContainer}>
+        </View>
+        <View rkCardContent style={styles.content}>
+          <View style={styles.subHead}>
             <View style={styles.name}>
               <RkText style={styles.title} rkCardTitle>{post.userName}</RkText>
               <RkText style={styles.subtitle} rkCardSubTitle>posted photo</RkText>
@@ -30,8 +32,6 @@ export default class Post extends Component {
               <Icon name={post.liked ? 'md-heart' : 'md-heart-outline'}/>
             </RkButton>
           </View>
-        </View>
-        <View rkCardContent style={styles.content}>
           {this._renderPostText(post.text)}
         </View>
         <View rkCardFooter style={styles.footer}>
@@ -66,16 +66,20 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 5,
     overflow: 'hidden'
   },
+  container: {
+    borderTopLeftRadius: 5,
+    borderTopRightRadius: 5,
+  },
+  subHead: {
+    flexDirection: 'row',
+    justifyContent: 'space-between'
+  },
   name: {
-    paddingLeft: 15,
-    backgroundColor: RkConfig.colors.blurBgLight
+    marginBottom: 10
   },
   content: {
-    paddingTop: 10,
-  },
-  subheadContainer: {
-    marginTop: -45,
-    paddingBottom: 5,
+    backgroundColor: RkConfig.colors.transparent,
+    zIndex: 80
   },
   footer: {
     justifyContent: 'flex-end',
@@ -83,19 +87,16 @@ const styles = StyleSheet.create({
     paddingVertical: 5,
   },
   title: {
-    color: RkConfig.colors.white,
+    color: RkConfig.colors.darkGray,
     fontSize: 24
   },
   subtitle: {
     fontSize: 14,
     marginTop: -2,
-    color: RkConfig.colors.lightGray
+    color: RkConfig.colors.gray
   },
   likeButton: {
-    alignSelf: 'flex-end',
-    marginRight: 20,
     marginTop: -30,
-    marginBottom: 0,
     backgroundColor: RkConfig.colors.materialWarning,
     borderRadius: 30,
     paddingHorizontal: 16,

@@ -5,7 +5,7 @@ import {
 } from 'react-native';
 
 import Icon from 'react-native-vector-icons/Ionicons';
-import {RkModalImg, RkButton, RkStyle, RkText} from 'react-native-ui-kit';
+import {RkModalImg, RkButton, RkStyle, RkText} from 'react-native-ui-kitten';
 
 export default class PostImage extends Component {
 

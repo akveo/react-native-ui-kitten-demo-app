@@ -5,7 +5,7 @@ import {
   StatusBar
 } from 'react-native';
 
-import {RkConfig, RkBarBg} from 'react-native-ui-kit';
+import {RkConfig, RkBarBg} from 'react-native-ui-kitten';
 
 export default class AppWrapper extends Component {
 

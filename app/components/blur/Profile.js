@@ -5,7 +5,7 @@ import {
   Image
 } from 'react-native';
 
-import {RkConfig, RkButton, RkText} from 'react-native-ui-kit';
+import {RkConfig, RkButton, RkText} from 'react-native-ui-kitten';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 export default class Profile extends Component {

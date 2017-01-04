@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 
 import _ from "lodash";
-import {RkConfig, RkButton, RkText, RkTextInput, RkBoardUpView, RkBarBg} from 'react-native-ui-kit';
+import {RkConfig, RkButton, RkText, RkTextInput, RkBoardUpView, RkBarBg} from 'react-native-ui-kitten';
 import api from '../util/ApiMock';
 import ThemeService from "../util/ThemeService";
 

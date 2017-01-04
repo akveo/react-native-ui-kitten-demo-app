@@ -5,7 +5,7 @@ import {
 } from 'react-native';
 
 import Icon from 'react-native-vector-icons/Ionicons';
-import {RkConfig, RkButton, RkText} from 'react-native-ui-kit';
+import {RkConfig, RkButton, RkText} from 'react-native-ui-kitten';
 
 export default class Toolbar extends Component {
 

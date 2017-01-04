@@ -5,7 +5,7 @@ import {
   Dimensions,
 } from 'react-native';
 
-import {RkModalImg} from 'react-native-ui-kit';
+import {RkModalImg} from 'react-native-ui-kitten';
 
 export default class ImageGallery extends Component {
 

@@ -43,7 +43,7 @@ import MainScreenMaterial from '../screens/MainScreenMaterial';
 
 import LoginScreenBlur from '../screens/login/LoginScreenBlur';
 
-import {RkConfig} from 'react-native-ui-kit';
+import {RkConfig} from 'react-native-ui-kitten';
 
 let classicTheme = {
   mainScreen: MainScreenBase,

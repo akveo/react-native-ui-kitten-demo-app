@@ -5,7 +5,7 @@ import {
   Image
 } from 'react-native';
 
-import {RkConfig, RkText} from 'react-native-ui-kit';
+import {RkConfig, RkText} from 'react-native-ui-kitten';
 
 export default class Profile extends Component {
 

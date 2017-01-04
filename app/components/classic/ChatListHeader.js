@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {StyleSheet, View} from 'react-native';
 
-import {RkText, RkConfig} from 'react-native-ui-kit';
+import {RkText, RkConfig} from 'react-native-ui-kitten';
 
 export default class ChatListHeaderClassic extends Component {
 

@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 
 import Icon from 'react-native-vector-icons/Ionicons';
-import {RkButton, RkStyle, RkTextInput, RkText, RkConfig, RkCard} from 'react-native-ui-kit';
+import {RkButton, RkStyle, RkTextInput, RkText, RkConfig, RkCard} from 'react-native-ui-kitten';
 import LoginScreenBase from "../LoginScreenBase";
 
 export default class LoginScreenMaterial extends LoginScreenBase {

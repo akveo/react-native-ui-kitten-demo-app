@@ -4,7 +4,7 @@ import {
   ScrollView
 } from 'react-native';
 
-import {RkStyle, RkTabView} from 'react-native-ui-kit';
+import {RkStyle, RkTabView} from 'react-native-ui-kitten';
 import api from '../util/ApiMock';
 import FriendList from '../components/common/FriendList';
 import PostList from '../components/common/PostList';

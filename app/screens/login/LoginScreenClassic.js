@@ -8,7 +8,7 @@ import {
   Text
 } from 'react-native';
 
-import {RkButton, RkTextInput, RkConfig, RkText} from 'react-native-ui-kit';
+import {RkButton, RkTextInput, RkConfig, RkText} from 'react-native-ui-kitten';
 import LoginScreenBase from "../LoginScreenBase";
 
 

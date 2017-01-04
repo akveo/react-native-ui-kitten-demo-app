@@ -5,7 +5,7 @@ import {
   Image
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import {RkConfig, RkCard, RkTextInput, RkButton} from 'react-native-ui-kit';
+import {RkConfig, RkCard, RkTextInput, RkButton} from 'react-native-ui-kitten';
 
 
 export default class NewsHead extends Component {

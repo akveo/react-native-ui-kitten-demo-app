@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 
 import Icon from 'react-native-vector-icons/Ionicons';
-import {RkButton, RkText, RkTextInput, RkSeparator, RkConfig} from 'react-native-ui-kit';
+import {RkButton, RkText, RkTextInput, RkSeparator, RkConfig} from 'react-native-ui-kitten';
 import LoginScreenBase from "../LoginScreenBase";
 
 

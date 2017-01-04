@@ -1,4 +1,4 @@
-import {RkConfig} from 'react-native-ui-kit';
+import {RkConfig} from 'react-native-ui-kitten';
 
 RkConfig.setColor('lightGray', RkConfig.colors.grey300);
 RkConfig.setColor('gray', RkConfig.colors.grey500);

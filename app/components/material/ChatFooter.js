@@ -4,7 +4,7 @@ import {
   View
 } from 'react-native';
 
-import {RkConfig, RkTextInput, RkButton} from 'react-native-ui-kit';
+import {RkConfig, RkTextInput, RkButton} from 'react-native-ui-kitten';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 export default class ChatFooter extends Component {

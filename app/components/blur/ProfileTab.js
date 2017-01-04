@@ -3,7 +3,7 @@ import {
   StyleSheet,
 } from 'react-native';
 
-import {RkConfig} from 'react-native-ui-kit';
+import {RkConfig} from 'react-native-ui-kitten';
 import ProfileTabBase from "../common/ProfileTab";
 
 export default class ProfileTab extends ProfileTabBase {

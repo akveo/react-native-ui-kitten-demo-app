@@ -5,7 +5,7 @@ import {
   TouchableOpacity
 } from 'react-native';
 
-import {RkCard, RkText, RkButton, RkConfig} from 'react-native-ui-kit';
+import {RkCard, RkText, RkButton, RkConfig} from 'react-native-ui-kitten';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 export default class FollowerItem extends Component {

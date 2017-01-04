@@ -5,7 +5,7 @@ import {
   Image
 } from 'react-native';
 
-import {RkConfig, RkText, RkButton} from 'react-native-ui-kit';
+import {RkConfig, RkCard, RkButton, RkText} from 'react-native-ui-kitten';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 export default class Profile extends Component {
@@ -16,12 +16,19 @@ export default class Profile extends Component {
       <View>
         <Image source={user.avatar}
                style={styles.avatar}/>
-        <View style={styles.buttonWrap}>
-          <RkButton style={styles.button} innerStyle={styles.buttonIconInner}><Icon name='ios-person'/></RkButton>
+        <View style={styles.wrap}>
+          <RkCard rkCardHeader style={styles.buttonWrap}>
+            <RkButton rkType='clear' style={styles.button} innerStyle={styles.buttonInner}>
+              <Icon style={styles.controlIcon} name='md-mail'/>
+              <RkText> Message</RkText>
+            </RkButton>
+            <View style={styles.separator}/>
+            <RkButton rkType='clear' style={styles.button} innerStyle={styles.buttonInner}>
+              <Icon style={styles.controlIcon} name='md-person-add'/>
+              <RkText> Follow</RkText>
+            </RkButton>
+          </RkCard>
         </View>
-        <RkText style={styles.nameText}>
-          {user.name.first} {user.name.last}
-        </RkText>
       </View>
     )
   }
@@ -29,20 +36,40 @@ export default class Profile extends Component {
 }
 
 const styles = StyleSheet.create({
-  buttonWrap:{
-    backgroundColor: RkConfig.colors.materialBg,
-    alignItems: 'flex-end',
-    paddingBottom: 10,
+  wrap:{
+    backgroundColor: RkConfig.colors.materialGray
+  },
+  buttonWrap: {
+    marginTop: 5,
+    marginBottom: 5,
+    marginLeft: 0,
+    marginRight: 0,
+    paddingBottom: 0,
+    paddingTop: 0,
+    borderTopLeftRadius: 0,
+    borderTopRightRadius: 0,
+    borderBottomRightRadius: 0,
+    borderBottomColor: RkConfig.colors.materialGray,
+    justifyContent: 'space-around',
+    shadowRadius: 3,
+    paddingVertical: 5
+  },
+  separator:{
+    width: 1,
+    height: 50,
+    backgroundColor: RkConfig.colors.materialGray
   },
   button: {
-    marginTop: -24.5,
-    marginRight: 30,
-    borderRadius: 30,
-    backgroundColor: RkConfig.colors.materialWarning
+    flex: 1,
+    width: 140,
+    backgroundColor: RkConfig.colors.transparent,
   },
-  buttonIconInner: {
-    fontSize: 30,
-    color: RkConfig.colors.white
+  buttonInner: {
+    color: RkConfig.colors.gray
+  },
+  controlIcon:{
+    fontSize: 24,
+    marginRight: 5,
   },
   avatar: {
     width: null,

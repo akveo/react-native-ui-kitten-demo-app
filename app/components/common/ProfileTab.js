@@ -3,7 +3,7 @@ import {
   View
 } from 'react-native';
 
-import {RkText} from 'react-native-ui-kit';
+import {RkText} from 'react-native-ui-kitten';
 
 export default class ProfileTabBase extends Component {
 

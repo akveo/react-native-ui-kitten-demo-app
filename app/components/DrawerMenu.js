@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 
 import Icon from '../../node_modules/react-native-vector-icons/Ionicons'; //TODO normal import string?
-import {RkConfig, RkText, RkSeparator} from 'react-native-ui-kit';
+import {RkConfig, RkText, RkSeparator} from 'react-native-ui-kitten';
 
 export default class DrawerMenu extends Component {
 

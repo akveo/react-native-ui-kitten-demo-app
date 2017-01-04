@@ -6,7 +6,7 @@ import {
   Image,
 } from 'react-native';
 
-import {RkConfig, RkButton, RkCard, RkText} from 'react-native-ui-kit';
+import {RkConfig, RkButton, RkCard, RkText} from 'react-native-ui-kitten';
 
 export default class ChatItemBlur extends Component {
 

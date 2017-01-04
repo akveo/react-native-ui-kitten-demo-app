@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {StyleSheet} from 'react-native';
 
-import {RkText, RkConfig, RkCard, RkButton} from 'react-native-ui-kit';
+import {RkText, RkConfig, RkCard, RkButton} from 'react-native-ui-kitten';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 export default class ChatListHeaderBlur extends Component {

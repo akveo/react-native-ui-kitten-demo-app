@@ -6,7 +6,7 @@ import {
   Image,
 } from 'react-native';
 
-import {RkConfig, RkButton, RkCard, RkText} from 'react-native-ui-kit';
+import {RkConfig, RkButton, RkCard, RkText} from 'react-native-ui-kitten';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 export default class ChatItem extends Component {
@@ -31,7 +31,6 @@ export default class ChatItem extends Component {
             <View style={styles.timeContainer}>
               <RkText rkCardSubTitle>{msg.time}</RkText>
             </View>
-            <Icon style={styles.rightIcon} name='md-arrow-dropright'/>
           </View>
         </RkCard>
       </TouchableOpacity>

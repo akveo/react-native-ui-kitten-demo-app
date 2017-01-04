@@ -3,7 +3,7 @@ import {
   StyleSheet,
 } from 'react-native';
 
-import {RkConfig} from 'react-native-ui-kit';
+import {RkConfig} from 'react-native-ui-kitten';
 import ProfileTabBase from "../common/ProfileTab";
 
 export default class ProfileTab extends ProfileTabBase {
@@ -19,24 +19,24 @@ export default class ProfileTab extends ProfileTabBase {
 const styles = StyleSheet.create({
   statContainer: {
     alignItems: 'center',
-    backgroundColor: RkConfig.colors.materialBg,
+    backgroundColor: RkConfig.colors.white,
     paddingVertical: 10,
     borderBottomWidth: 3,
-    borderBottomColor: RkConfig.colors.materialBg
+    borderBottomColor: RkConfig.colors.white
   },
   statContainerSelected: {
-    borderBottomColor: RkConfig.colors.materialWarning
+    borderBottomColor: RkConfig.colors.materialBg
   },
   titleStatText: {
-    fontSize: 20
+    fontSize: 20,
   },
   statTextSelected:{
-    color: RkConfig.colors.materialWarning
+    color: RkConfig.colors.materialBg
   },
   statText: {
     textAlign: 'center',
     fontSize: 16,
-    color: RkConfig.colors.white
+    color: RkConfig.colors.gray
   },
   tabView: {
     backgroundColor: RkConfig.colors.white,

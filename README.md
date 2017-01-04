@@ -37,7 +37,7 @@ Follow us on [Twitter](https://twitter.com/akveo_inc) to get latest news about t
 <img alt='chat material screen' src='https://camo.githubusercontent.com/8518fdfa7f46ea02924731a5ed5a986dcfa46bb3/68747470733a2f2f7468756d62732e6766796361742e636f6d2f467261696c496d70617373696f6e65644175737472616c69616e6672657368776174657263726f636f64696c652d73697a655f726573747269637465642e676966' width='240' height='428' />
 
 ## Build with
-- [react-native-ui-kit](https://github.com/akveo-private/react-native-ui-kit)
+- [react-native-ui-kitten](https://github.com/akveo/react-native-ui-kitten)
 - [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 - [react-native-drawer](https://github.com/root-two/react-native-drawer)
 

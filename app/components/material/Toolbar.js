@@ -3,7 +3,7 @@ import {
   StyleSheet,
 } from 'react-native';
 
-import {RkConfig, RkButton} from 'react-native-ui-kit';
+import {RkConfig, RkButton} from 'react-native-ui-kitten';
 import Toolbar from '../common/Toolbar';
 
 export default class ToolbarMaterial extends Component {

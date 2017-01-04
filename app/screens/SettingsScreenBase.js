@@ -8,7 +8,7 @@ import {
   TouchableOpacity
 } from 'react-native';
 
-import {RkConfig, RkCard, RkButton, RkChoiceGroup, RkChoice, RkText} from 'react-native-ui-kit';
+import {RkConfig, RkCard, RkButton, RkChoiceGroup, RkChoice, RkText} from 'react-native-ui-kitten';
 
 import ThemeService from '../util/ThemeService';
 
