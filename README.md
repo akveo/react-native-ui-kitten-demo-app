@@ -1,8 +1,8 @@
 # React native demo app
 
-Customizable demo app with ready to use screens.
+Customizable demo app with some commonly used components developed in [react-native-ui-kitten](https://github.com/akveo/react-native-ui-kitten/).
 App made with :heart: by [Akveo team](http://akveo.com/). 
-Follow us on [Twitter](https://twitter.com/akveo_inc) to get latest news about this template first!
+Follow us on [Facebook](https://www.facebook.com/akveo) or [Twitter](https://twitter.com/akveo_inc) to get latest news about this app first!
 
 ##Login screens
 
@@ -44,8 +44,8 @@ Follow us on [Twitter](https://twitter.com/akveo_inc) to get latest news about t
 ## How can I support developers?
 - Star our GitHub repo
 - Create pull requests, submit bugs, suggest new features or documentation updates
-- Follow us on [Twitter](https://twitter.com/akveo_inc)
 - Like our page on [Facebook](https://www.facebook.com/akveo/)
+- Follow us on [Twitter](https://twitter.com/akveo_inc)
 
 ## Can I hire you guys?
 Yes! We are available for hire. Visit [our homepage](http://akveo.com/) or simply leave us a note to contact@akveo.com. We will be happy to work with you!
