@@ -1,6 +1,6 @@
 # React native demo app
 
-Customizable demo app with some commonly used components developed in [react-native-ui-kitten](https://github.com/akveo/react-native-ui-kitten/).
+Customizable demo app with some commonly used components developed in [react-native-ui-kitten](https://github.com/akveo/react-native-ui-kitten/). Available in 3 editions you're able to switch between: Classic iOS, Blur and Material!
 
 App made with :heart: by [Akveo team](http://akveo.com/). 
 
