@@ -1,7 +1,9 @@
 # React native demo app
 
 Customizable demo app with some commonly used components developed in [react-native-ui-kitten](https://github.com/akveo/react-native-ui-kitten/).
+
 App made with :heart: by [Akveo team](http://akveo.com/). 
+
 Follow us on [Facebook](https://www.facebook.com/akveo) or [Twitter](https://twitter.com/akveo_inc) to get latest news about this app first!
 
 ##Login screens
