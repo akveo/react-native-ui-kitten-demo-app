@@ -38,6 +38,11 @@ Follow us on [Facebook](https://www.facebook.com/akveo) or [Twitter](https://twi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img alt='chat material screen' src='https://camo.githubusercontent.com/e26761153c89a450a67f332298b49972256a628c/68747470733a2f2f7468756d62732e6766796361742e636f6d2f41726964466169746866756c4a6176616c696e612d73697a655f726573747269637465642e676966' width='240' height='428' />
 
+## Installation
+1. git clone https://github.com/akveo/react-native-ui-kitten-demo-app/
+2. npm install
+4. react-native run-ios
+
 ## Build with
 - [react-native-ui-kitten](https://github.com/akveo/react-native-ui-kitten)
 - [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
